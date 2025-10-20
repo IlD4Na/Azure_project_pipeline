@@ -67,7 +67,7 @@ Questa pipeline di **Azure Data Factory (ADF)** implementa un flusso dati **bron
 
 ## Risultato finale
 
-Pipeline in Azure che prende in input un file dal contenitore bronze e lo elabora e salva nel contenitore contenitore gold, il file finale provvisto dei metadati dei file di partenza avrà le intestazioni in italiano e solo i film con una valutazione superiore o uguale a 7.
+Pipeline in Azure che prende in input un file dal contenitore bronze, lo elabora e poi lo salva nel contenitore contenitore gold. Il file finale provvisto dei metadati dei file di partenza (bronze e silver) avrà le intestazioni in italiano e conterrà solo i film con una valutazione superiore o uguale a 7.
 ---
 
 ## 🔗 Dipendenze e sequenza
